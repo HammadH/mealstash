@@ -1,0 +1,788 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<!-- MealStash - A Multipurpose Landing Page Template, designed by David Rozando (http://design.davidrozando.com) -->
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html lang="en"> <!--<![endif]-->
+
+	<head>
+
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		
+		<!-- BASIC INFO -->
+		<title>MealStash - Sport and fitness nutrition dubai</title>
+		<meta name="keywords" content="healthy, food, gym, workout meal, exercise, lean">
+		<meta name="description" content="MealStash helps you get fitness meals from local resturants for your workouts and physical needs. Meals for getting lean, building muscle or losing weight are available to order anytime, instantly or schedule before or after workouts.">
+
+		<!-- FAVICONS -->
+		<link rel="icon" href="images/favicons/favicon.ico">
+		<link rel="apple-touch-icon" href="images/favicons/apple-touch-icon.png">
+
+		<!-- CSS
+		================================= -->
+
+		<!-- GOOGLE FONTS -->
+		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Montserrat:400,700">
+		<link href='http://fonts.googleapis.com/css?family=Lobster|Kaushan+Script|Playball' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800">
+
+		<!-- LIBRARIES CSS -->
+		<link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+		<link rel="stylesheet" href="{% static 'css/font-awesome.min.css' %}">
+		<link rel="stylesheet" href="{% static 'css/animate.min.css' %}">
+
+		<!-- SPECIFIC CSS -->
+		<link rel="stylesheet" href="{% static 'css/style.css' %}">
+
+		<!-- COLORS -->
+		<!-- <link id="color-css" rel="stylesheet" href="css/colors/pink.css"> -->
+		<!-- <link id="color-css" rel="stylesheet" href="css/colors/red.css"> -->
+		<!-- <link id="color-css" rel="stylesheet" href="css/colors/orange.css"> -->
+		<!-- <link id="color-css" rel="stylesheet" href="css/colors/yellow.css"> -->
+		<link id="color-css" rel="stylesheet" href="{% static 'css/colors/green.css' %}">
+		<!-- <link id="color-css" rel="stylesheet" href="css/colors/turquoise.css"> -->
+		<!-- <link id="color-css" rel="stylesheet" href="css/colors/blue.css"> -->
+		<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-62232244-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+	</head>
+
+	<body class="enable-animations enable-preloader">
+
+		<div id="document" class="document">
+
+			<!-- HEADER
+			================================= -->
+			<header id="header" class="header-section section section-dark navbar navbar-fixed-top">
+
+				<div class="container-fluid">
+
+					<div class="navbar-header navbar-left">
+
+						<!-- RESPONSIVE MENU BUTTON -->
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigation">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+
+						<!-- HEADER LOGO -->
+						<a class="navbar-logo navbar-brand anchor-link" href="/">
+							<!-- <img src="images/logos/header-logo.png" srcset="images/logos/header-logo@2x.png 2x" alt="MealStash"> -->
+							<h1 style='font-family: Lobster, cursive; margin-top:-2%;'>MealStash</h3>
+
+						</a>
+
+					</div>
+
+					<nav id="navigation" class="navigation navbar-collapse collapse navbar-right">
+						
+						<!-- NAVIGATION LINKS -->
+						<ul id="header-nav" class="nav navbar-nav">
+							
+							<li><a href="#hero" class="hidden">Top</a></li>
+							<li><a href="#team">Fitness Meals</a></li>
+							<li><a href="#how-it-works">How it Works</a></li>
+							<li><a href="#about">About</a></li>
+							<li><a href="#benefits">Benefits</a></li>
+							<li><a href="#why">Why MealStash</a></li>
+							<li><a href="#maps">Contact</a></li>
+							
+							<!-- HEADER ACTION BUTTON -->
+							<!-- <li class="header-action-button"><a href="#" class="btn btn-primary">Action Button</a></li> -->
+
+						</ul>
+
+					</nav>
+
+				</div>
+
+			</header>
+
+			<!-- HERO
+			================================= -->
+			<section id="hero" class="hero-section hero-layout-simple hero-layout-fullscreen-subscription-form hero-fullscreen section section-dark">
+
+				<div class="section-background">
+
+					<!-- IMAGE BACKGROUND -->
+					<div class="section-background-image parallax" data-stellar-ratio="0.4">
+						<img src="{% static 'images/backgrounds/1.jpg' %}" alt="" style="opacity: 0.5;">
+					</div>
+
+					<!-- VIDEO BACKGROUND -->
+					<!-- <div class="section-background-video section-background-dot-overlay parallax" data-stellar-ratio="0.4">
+						<video preload="auto" autoplay loop muted poster="images/backgrounds/video-fallback-bg.jpg" style="opacity: 0.3;">
+							<source type="video/mp4" src="videos/video-bg.mp4">
+							<source type="video/ogg" src="videos/video-bg.ogv">
+							<source type="video/webm" src="videos/video-bg.webm">
+						</video>
+					</div> -->
+
+					<!-- SLIDESHOW BACKGROUND -->
+				<!-- 	<ul class="section-background-slideshow parallax" data-stellar-ratio="0.4" data-speed="800" data-timeout="4000">
+						<li><img src="images/backgrounds/hero-bg-slideshow-1.jpg" alt="" style="opacity: 0.25;"></li>
+						<li><img src="images/backgrounds/hero-bg-slideshow-2.jpg" alt="" style="opacity: 0.25;"></li>
+						<li><img src="images/backgrounds/hero-bg-slideshow-3.jpg" alt="" style="opacity: 0.2;"></li>
+					</ul> -->
+
+				</div>
+
+				<div class="container">
+
+					<div class="hero-content">
+						<div class="hero-content-inner">
+
+							<div class="row">
+								<div class="col-md-10 col-md-offset-1">
+
+									<div class="hero-heading" data-animation="fadeIn">
+
+										<h1 class="hero-title">Food for your Fitness</h1>
+
+										<p class="hero-tagline">Because what you eat matters</p>
+
+									</div>
+										
+									<div class="row">
+										<div class="col-md-10 col-md-offset-1">
+
+											<!-- SUBSCRIPTION FORM -->
+											<form method="post" id="subscription-form" class="subscription-form form-ajax-submit" role="form">
+												<div class="form-validation alert"></div>
+												<div class="form-group subscription-form-wrapper">
+													<span class="subscription-form-input">
+														<input type="email" name="email" id="subscribe-form-email" class="subscribe-form-email form-control form-control-lg" placeholder="Enter your email address" autocomplete="off">
+													</span>
+													<span class="subscription-form-submit">
+														<button class="btn btn-primary btn-lg"  data-loading-text="Thanks!">Get Invite</button>
+													</span>
+												</div>
+											</form>
+											<p style='margin-top:15px;' class="hero-tagline">Delivering workout meals for athletes and gymmers</p>
+										</div>
+
+									</div>
+
+								</div>
+							</div>
+
+						</div>
+					</div>
+
+				</div>
+
+				<!-- HERO START LINK -->
+				<a href="#headline" class="hero-start-link anchor-link"><span class="fa fa-angle-double-down"></span></a>
+
+			</section>
+
+			<!-- HEADLINE
+			================================= -->
+			<section id="headline" class="headline-section section-gray section">
+
+				<div class="container">
+
+					<h2 class="section-heading text-center hidden">Tagline</h2>
+
+					<div class="row">
+						<div class="col-md-10 col-md-offset-1">
+
+							<p class="headline-text">
+								<strong>MealStash</strong> delivers healthy &amp; nutritious food from restaurants to help you make the most of your workouts. 
+							</p>
+
+						</div>
+					</div>
+
+				</div>
+
+			</section>
+
+			<!-- MEALS
+			================================= -->
+			<section id="team" class="team-section section">
+
+				<div class="container-fluid">
+					
+					<h2 class="section-heading text-center">Popular Fitness Meals</h2>
+
+					<div class="team-row row">
+
+						<!-- TEAM MEMBER 1 -->
+						<div class="col-lg-2 col-md-4 col-sm-6" data-animation="fadeIn">
+							<div class="team-member">
+								<img class="team-member-picture" src="{% static 'images/backgrounds/runner_pack_1.jpg' %}" alt="">
+								<div class="team-member-text">
+									<h4 class="team-member-name">Superfast Steak</h4>
+									<div class="team-member-position">Calories: 400 | Protein: 20 g | Fat: 18 g | Carbs: 30 g</div>
+									<p class="team-member-description">Made with lean beef and roasted vegetables, this is a perfect dinner after a long run.</p>
+								</div>
+							</div>
+							<a href="#hero" class="center-block anchor-link btn btn-primary">Order</a>
+						</div>
+
+						<!-- TEAM MEMBER 2 -->
+						<div class="col-lg-2 col-md-4 col-sm-6" data-animation="fadeIn">
+							<div class="team-member even">
+								<img class="team-member-picture" src="{% static 'images/backgrounds/pro_pancake.jpg' %}" alt="" width='100%' height='100%'>
+								<div class="team-member-text">
+									<h4 class="team-member-name">Protien Pancakes</h4>
+									<div class="team-member-position">Calories: 421 | Protein: 51 g | Fat: 6 g | Carbs: 39 g</div>
+									<p class="team-member-description">These pancakes pack a mean protein punch without a ton of carbs, perfect for to lean up.</p>
+								</div>
+								<a href="#hero" class="center-block anchor-link btn btn-primary">Order</a>
+							</div>
+							
+						</div>
+
+						<div class="hidden-md hidden-lg clear"></div>
+
+						<!-- TEAM MEMBER 3 -->
+						<div class="col-lg-2 col-md-4 col-sm-6" data-animation="fadeIn">
+							<div class="team-member">
+								<img class="team-member-picture" src="{% static 'images/backgrounds/m3.JPG' %}" alt="">
+								<div class="team-member-text">
+									<h4 class="team-member-name">Chicken &amp; sweet potato</h4>
+									<div class="team-member-position">Calories: 300 | Protein: 51 g | Fat: 5 g | Carbs: 30 g</div>
+									<p class="team-member-description">Sweet potatoes are the perfect bodybuilder carb that slowly digest to keep your energy levels high.</p>
+								</div>
+								
+							</div>
+							<a href="#hero" class="center-block anchor-link btn btn-primary">Order</a>
+						</div>
+
+						<div class="hidden-sm hidden-lg clear"></div>
+
+						<!-- TEAM MEMBER 4 -->
+						<div class="col-lg-2 col-md-4 col-sm-6" data-animation="fadeIn">
+							<div class="team-member even">
+								<img class="team-member-picture" src="{% static 'images/backgrounds/m4.jpg' %}" alt="">
+								<div class="team-member-text">
+									<h4 class="team-member-name">Grilled salmon &amp; Quinoa</h4>
+									<div class="team-member-position">Calories: 543 | Protein: 42 g | Fat: 23 g | Carbs: 40 g</div>
+									<p class="team-member-description">Two protein powerhouses, salmon and quinoa combined to make this hearty salad.</p>
+								</div>
+								<a href="#hero" class="center-block anchor-link btn btn-primary">Order</a>
+							</div>
+						</div>
+
+						<div class="hidden-md hidden-lg clear"></div>
+
+						<!-- TEAM MEMBER 5 -->
+						<div class="col-lg-2 col-md-4 col-sm-6" data-animation="fadeIn">
+							<div class="team-member">
+								<img class="team-member-picture" src="{% static 'images/backgrounds/m5.jpg' %}" alt="">
+								<div class="team-member-text">
+									<h4 class="team-member-name">Chicken-Broccoli Wrapy</h4>
+									<div class="team-member-position">Calories: 191 | Protein: 18 g | Fat: 6 g | Carbs: 16 g</div>
+									<p class="team-member-description">A wrap designed to rev up your metabolism and help you burn more fat and feel more energized.</p>
+								</div>
+							</div>
+							<a href="#hero" class="center-block anchor-link btn btn-primary">Order</a>
+						</div>
+
+						<!-- TEAM MEMBER 6 -->
+						<div class="col-lg-2 col-md-4 col-sm-6" data-animation="fadeIn">
+							<div class="team-member even">
+								<img class="team-member-picture" src="{% static 'images/backgrounds/m6.jpg' %}" alt="">
+								<div class="team-member-text">
+									<h4 class="team-member-name">Italian Tuna Salad</h4>
+									<div class="team-member-position">Calories: 181 | Protein: 24 g | Fat: 8 g | Carbs: 8 g</div>
+									<p class="team-member-description">This is a super-healthy post workout meal to build muscle recovery and enhance endurance. </p>
+								</div>
+								<a href="#hero" class="center-block anchor-link btn btn-primary">Order</a>
+							</div>
+						</div>
+
+					</div>
+
+				</div>
+
+			</section>
+
+
+			<!-- HOW IT WORKS
+			================================= -->
+			<section id="how-it-works" class="how-it-works-section section">
+
+				<div class="container-fluid">
+					
+					<h2 class="section-heading text-center">How it Works</h2>
+
+					<div class="hiw-row row">
+
+						<!-- HOW IT WORKS - ITEM 1 -->
+						<div class="col-md-3 col-sm-6" data-animation="fadeIn">
+							<div class="hiw-item">
+								<img class="hiw-item-picture" src="{% static 'images/backgrounds/mail.png' %}" alt="" style='width:;'>
+								<div class="hiw-item-text">
+									<span class="hiw-item-icon">1</span>
+									<h4 class="hiw-item-title">Get Invite</h4>
+									<p class="hiw-item-description">Send us your email to receive an invite</p>
+								</div>
+							</div>
+						</div>
+
+						<!-- HOW IT WORKS - ITEM 2 -->
+						<div class="col-md-3 col-sm-6" data-animation="fadeIn">
+							<div class="hiw-item even">
+								<img class="hiw-item-picture" src="{% static 'images/backgrounds/2.png' %}" alt="">
+								<div class="hiw-item-text">
+									<span class="hiw-item-icon">2</span>
+									<h4 class="hiw-item-title">Select your sport</h4>
+									<p class="hiw-item-description">Select your exercise and fitness regime.</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="hidden-md hidden-lg clear"></div>
+
+						<!-- HOW IT WORKS - ITEM 3 -->
+						<div class="col-md-3 col-sm-6" data-animation="fadeIn">
+							<div class="hiw-item">
+								<img class="hiw-item-picture" src="{% static 'images/backgrounds/3.png' %}" alt="">
+								<div class="hiw-item-text">
+									<span class="hiw-item-icon">3</span>
+									<h4 class="hiw-item-title">Choose your meal</h4>
+									<p class="hiw-item-description">Select the right meal pack needed for your body needs.</p>
+								</div>
+							</div>
+						</div>
+
+						<!-- HOW IT WORKS - ITEM 4 -->
+						<div class="col-md-3 col-sm-6" data-animation="fadeIn">
+							<div class="hiw-item even">
+								<img class="hiw-item-picture" src="{% static 'images/backgrounds/4.png' %}" alt="">
+								<div class="hiw-item-text">
+									<span class="hiw-item-icon">4</span>
+									<h4 class="hiw-item-title">Order or Subscribe</h4>
+									<p class="hiw-item-description">Order the meal immediately. Or set it to be delivered later, weekly or monthly.</p>
+								</div>
+							</div>
+						</div>
+
+					</div>
+
+				</div>
+
+			</section>
+
+
+			<!-- DESCRIPTION
+			================================= -->
+			<section id="about" class="about-section section">
+
+				
+
+					<h2 class="section-heading text-center">About MealStash</h2>
+
+					<div class="about-row row">
+
+						<!-- DESCRIPTION IMAGE -->
+						<div class="about-image col-md-6" data-animation="fadeIn" >
+							<img src="{% static 'images/backgrounds/mealstash_app.png' %}" alt="Description Image">
+
+						</div>
+
+						<!-- DESCRIPTION TEXT -->
+						<div class="about-text col-md-6" style='padding:5%'>
+							<p class="lead"><strong>MealStash</strong> is a personal food ordering platform for health &amp; fitness junkies. With meals designed for every nutritional need, your workouts will never go incomplete again.</p>
+							<ul class="icon-list"> 
+								<li>
+									<span class="icon-list-icon fa fa-heart-o" data-animation="bounceIn"></span>
+									<h4 class="icon-list-title">Fitness Food</h4>
+									<p>Delivering sports &amp; fitness nutrition from the best restaurants to you.  </p>
+								</li>
+								<li>
+									<span class="icon-list-icon fa fa-mobile" data-animation="bounceIn"></span>
+									<h4 class="icon-list-title">Order</h4>
+									<p>Browse through hundereds of nutritional recipes and simply order what you want to eat.</p>
+								</li>
+								<li>
+									<span class="icon-list-icon fa fa-spinner" data-animation="bounceIn"></span>
+									<h4 class="icon-list-title">Subscribe</h4>
+									<p>Choose weekly or monthly meal plans to get scheduled delivery of your food.</p>
+								</li>
+							</ul>
+						</div>
+
+					</div>
+
+				
+
+			</section>
+
+			<!-- BENEFITS
+			================================= -->
+			<section id="benefits" class="benefits-section section-gray section">
+
+				<div class="container">
+
+					<h2 class="section-heading text-center">The Benefits</h2>
+
+					<div class="benefits-row row">
+
+						<!-- BENEFIT 1 -->
+						<div class="col-md-4 col-sm-6">
+							<div class="benefit">
+								<span class="benefit-icon fa fa-heart" data-animation="bounceIn"></span>
+								<h4 class="benefit-title">Healthy Food</h4>
+								<p class="benefit-description">There is no point in exercising without eating healthy food. That's why our top most priority is healthy food. Every ingredient is thoroughly analyzed before using it to make the meal super healthy.</p>
+							</div>
+						</div>
+
+						<!-- BENEFIT 2 -->
+						<div class="col-md-4 col-sm-6">
+							<div class="benefit">
+								<span class="benefit-icon fa fa-mobile-phone" data-animation="bounceIn"></span>
+								<h4 class="benefit-title">Easy Ordering</h4>
+								<p class="benefit-description">One tap to place your order. And food will be delivered within 30-40 minutes. You can store the order as favorite or set it to order automatically everyday at the same time.</p>
+							</div>
+						</div>
+
+						<div class="hidden-md hidden-lg clear"></div>
+
+						<!-- BENEFIT 3 -->
+						<div class="col-md-4 col-sm-6">
+							<div class="benefit">
+								<span class="benefit-icon fa fa-gears" data-animation="bounceIn"></span>
+								<h4 class="benefit-title">Balanced Nutrition</h4>
+								<p class="benefit-description">Every meal is prepared for a specific nutritional need. If you're into running, you will choose meals that make you lean. And if you're into gaining weight, you'll choose from protien rich meals.</p>
+							</div>
+						</div>
+
+						<div class="hidden-sm clear"></div>
+
+						<!-- BENEFIT 4 -->
+						<div class="col-md-4 col-sm-6">
+							<div class="benefit">
+								<span class="benefit-icon fa fa-pagelines" data-animation="bounceIn"></span>
+								<h4 class="benefit-title">Natural Ingredients</h4>
+								<p class="benefit-description">This resontes with our core idea of healhty fitness food. We do not use any artificial ingredients to enrich the meals. All ingredients are 100% natural.</p>
+							</div>
+						</div>
+
+						<div class="hidden-md hidden-lg clear"></div>
+
+						<!-- BENEFIT 5 -->
+						<div class="col-md-4 col-sm-6">
+							<div class="benefit">
+								<span class="benefit-icon fa fa-truck" data-animation="bounceIn"></span>
+								<h4 class="benefit-title">Scheduled Delivery</h4>
+								<p class="benefit-description">You can schedule weekly or monthly delivery of your meal at the appropriate time, so your meal is delivered right before or after your workout.</p>
+							</div>
+						</div>
+
+						<!-- BENEFIT 6 -->
+						<div class="col-md-4 col-sm-6">
+							<div class="benefit">
+								<span class="benefit-icon fa fa-trophy" data-animation="bounceIn"></span>
+								<h4 class="benefit-title">Fitness Guarenteed</h4>
+								<p class="benefit-description">With every meal properly balanced to provide the right amount of nutrition, and prepared with the healthiest of ingredients, your fitness is guarenteed.</p>
+							</div>
+						</div>
+
+					</div>
+
+				</div>
+
+			</section>
+
+			
+
+			<!-- NUMBERS
+			================================= -->
+			<section id="numbers" class="numbers-section section-dark section">
+
+				<div class="section-background">
+
+					<!-- IMAGE BACKGROUND -->
+					<div class="section-background-image parallax" data-stellar-ratio="0.4">
+						<img src="{% static 'images/backgrounds/banner_1.jpg' %}" style="opacity: 0.2;">
+					</div>
+
+				</div>
+
+				<div class="container">
+
+					<h2 class="section-heading text-center">MealStash in Numbers</h2>
+
+					<div class="numbers-row row">
+
+						<!-- NUMBERS - ITEM 1 -->
+						<div class="col-md-4 col-sm-6">
+							<div class="numbers-item">
+								<div class="numbers-item-counter"><span class="counter-up">269</span></div>
+								<div class="numbers-item-caption">Fitness Meals</div>
+							</div>
+						</div>
+
+						<!-- NUMBERS - ITEM 2 -->
+						<div class="col-md-4 col-sm-6">
+							<div class="numbers-item">
+								<div class="numbers-item-counter"><span class="counter-up">99.8</span>%</div>
+								<div class="numbers-item-caption">Health &amp; Nutrition</div>
+							</div>
+						</div>
+
+						<!-- NUMBERS - ITEM 3 -->
+						<div class="col-md-4 col-sm-6">
+							<div class="numbers-item">
+								<div class="numbers-item-counter"><span class="counter-up">{{customers}}</span></div>
+								<div class="numbers-item-caption">Customers</div>
+							</div>
+						</div>
+
+						<!-- NUMBERS - ITEM 4 -->
+						<!-- <div class="col-md-3 col-sm-6">
+							<div class="numbers-item">
+								<div class="numbers-item-counter"><span class="counter-up">358</span> <span class="fa fa-truck"></span></div>
+								<div class="numbers-item-caption">Orders Delivered</div>
+							</div>
+						</div> -->
+
+					</div>
+
+				</div>
+
+			</section>
+
+			<!-- VIDEO SECTION
+			================================= -->
+			<!-- <section id="video" class="video-section section-gray section">
+
+				<div class="container">
+
+					<h2 class="section-heading text-center">Watch the Video</h2>
+
+					<div class="row">
+						<div class="col-md-10 col-md-offset-1">
+
+							<div class="video-embed"> -->
+
+								<!-- VIDEO EMBED FROM VIMEO -->
+							<!-- 	<iframe class="video-async" data-source="vimeo" data-video="115134273" data-color="f3ae73" allowfullscreen></iframe> -->
+								
+								<!-- VIDEO EMBED FROM YOUTUBE -->
+								<!-- <iframe class="video-async" data-source="youtube" data-video="7UAy8E3e9f8" allowfullscreen></iframe> -->
+
+						<!-- 	</div>
+
+						</div>
+					</div>
+
+				</div>
+			</section> -->
+
+			
+
+			<!-- TWO COLS DESCRIPTION SECTION
+			================================= -->
+			<section id='why'>
+			<section id="two-cols-description" class="two-cols-description-section section-accent section">
+
+				<div class="container-fluid two-cols-description-row">
+
+					<!-- TWO COLS DESCRIPTION TEXT -->
+					<div class="two-cols-description-text" data-animation="fadeInLeft">
+
+						<div class="two-cols-description-text-inner">
+
+							<h2 class="section-heading text-left">Why Use MealStash?</h2>
+
+							<p>MealStash is the only app to bring sport &amp; fitness nutrition to you. On time, natural and healthy nutrition for your fitness requirements. Need more reasons?</p>
+
+							<ul class="nice-list">
+								<li>Ordering is super easy. One tap, literally.</li>
+								<li>Weekly &amp; monthly packages for daily delivery.</li>
+								<li>Very affordable packages. We have done the hard work of negotiating for you.</li>
+							</ul>
+							
+						</div>
+
+					</div>
+
+					<!-- TWO COLS DESCRIPTION IMAGE -->
+					<div class="two-cols-description-image" data-animation="fadeInRight">
+						<img src="{% static 'images/backgrounds/fitness_shot.jpg' %}" alt="">
+					</div>
+
+				</div>
+
+			</section>
+			</section>
+		
+
+			<!-- TESTIMONIALS
+			================================= -->
+		<!-- 	<section id="testimonial" class="testimonial-section section-gray section">
+
+				<div class="container">
+
+					<h2 class="section-heading text-center">Our Partners</h2>
+
+					<div class="sponsors-row" data-animation="bounceIn">
+						<img src="images/contents/sponsor-1.png" alt="">
+						<img src="images/contents/sponsor-2.png" alt="">
+						<img src="images/contents/sponsor-3.png" alt="">
+						<img src="images/contents/sponsor-4.png" alt="">
+					</div>
+
+					
+
+				</div>
+
+			</section> -->
+
+			<!-- GOOGLE MAPS
+			================================= -->
+			<section id="maps" class="maps-section section">
+
+				<div class="container-fluid maps-row">
+
+					<!-- MAPS IMAGE -->
+					<div class="maps-image" data-animation="fadeIn">
+						<div id="gmap"></div>
+				
+						<script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+						<!-- GOGGLE MAPS CONFIGURATION -->
+						<!-- ref: http://maplacejs.com/ -->
+						<script>
+						var gmap_options = {
+							generate_controls : false,
+							locations : [{
+								lat : 25.090449,
+								lon : 55.151435,
+								animation : google.maps.Animation.DROP,
+								html : "MealStash Headquarter",
+							}],
+							map_options : {
+								scrollwheel : false,
+								mapTypeControl : false,
+								streetViewControl : false,
+								zoomControlOptions : {
+									style : google.maps.ZoomControlStyle.SMALL,
+								},
+								zoom : 15,
+							}
+						};
+						</script>
+					</div>
+
+					<!-- MAPS TEXT -->
+					<div class="maps-text" data-animation="fadeIn">
+
+						<div class="maps-text-inner">
+
+							<h2 class="section-heading text-left">Made with <span class="fa fa-heart text-primary"></span> in Dubai</h2>
+
+							<p>We're a small team of developers and fitness freaks. Get in touch with us if you're a resturant, or you're into fitness, want to eat healthy or just say hi!</p>
+
+							<div class="row">
+								<address class="col-sm-6">
+									<strong>MealStash Headquarter</strong>
+									<ul class="fa-ul">
+										<li><i class="fa-li fa fa-home"></i>Media City, Dubai<br>United Arab Emirates</li>
+										<li><i class="fa-li fa fa-phone"></i>Mobile: +971 55 2051031</li>
+										<li><i class="fa-li fa fa-envelope"></i>hello@mealstash.com</li>
+										<!-- <li><i class="fa-li fa fa-fax"></i>Fax: +62 109 876543</li> -->
+									</ul>										
+								</address>
+								<!-- <address class="col-sm-6">
+									<strong>Workshop &amp; Store</strong>
+									<ul class="fa-ul">
+										<li><i class="fa-li fa fa-home"></i>Jalan Legian, Kuta<br>Bali, Indonesia</li>
+										<li><i class="fa-li fa fa-phone"></i>Phone: +62 109 876543</li>
+										<li><i class="fa-li fa fa-fax"></i>Fax: +62 109 876543</li>
+									</ul>										
+								</address> -->
+							</div>
+							
+						</div>
+
+					</div>
+
+				</div>
+
+			</section>
+
+			<!-- CLOSING
+			================================= -->
+			<section id="closing" class="closing-section section-dark section">
+
+				<div class="section-background">
+
+					<!-- IMAGE BACKGROUND -->
+					<div class="section-background-image parallax" data-stellar-ratio="0.4">
+						<img src="{% static 'images/backgrounds/footer_banner.jpg' %}" alt="" style="opacity: 0.15;">
+					</div>
+
+				</div>
+
+				<div class="container">
+
+					<h3 class="closing-shout">Ready to start? Take the first step by clicking the button below</h3>
+
+					<div class="closing-buttons" data-animation="tada"><a href="#hero" class="anchor-link btn btn-lg btn-primary">Get MealStash</a></div>
+
+				</div>
+
+			</section>
+
+			<!-- FOOTER
+			================================= -->
+			<section id="footer" class="footer-section section">
+
+				<div class="container">
+
+					<h3 class="footer-logo">
+					<!-- 	<img src="images/logos/footer-logo.png" srcset="images/logos/footer-logo@2x.png 2x" alt="MealStash"> -->
+					<h1 style='font-family: Lobster, cursive; margin-top:-2%;color:grey; font-size:50px;'>MealStash</h3>
+					</h3>
+
+					<!-- <div class="footer-socmed">
+						<a href="#" target="_blank"><span class="fa fa-facebook"></span></a>
+						<a href="#" target="_blank"><span class="fa fa-twitter"></span></a>
+						<a href="#" target="_blank"><span class="fa fa-instagram"></span></a>
+						<a href="#" target="_blank"><span class="fa fa-pinterest"></span></a>
+					</div> -->
+
+					<div class="footer-copyright">
+						&copy; 2015 MealStash
+					</div>
+
+				</div>
+
+			</section>
+		
+		</div>
+
+		<!-- JAVASCRIPT
+		================================= -->
+		<script src="{% static 'js/jquery-1.11.2.min.js' %}"></script>
+		<script src="{% static 'js/bootstrap.min.js' %}"></script>
+		<script src="{% static 'js/respimage.min.js' %}"></script>
+		<script src="{% static 'js/jpreloader.min.js' %}"></script>
+		<script src="{% static 'js/smoothscroll.min.js' %}"></script>
+		<script src="{% static 'js/jquery.nav.min.js' %}"></script>
+		<script src="{% static 'js/jquery.inview.min.js' %}"></script>
+		<script src="{% static 'js/jquery.counterup.min.js' %}"></script>
+		<script src="{% static 'js/jquery.stellar.min.js' %}"></script>
+		<script src="{% static 'js/maplace-0.1.3.min.js' %}"></script>
+		<script src="{% static 'js/script.js' %}"></script>
+
+	</body>
+
+</html>
